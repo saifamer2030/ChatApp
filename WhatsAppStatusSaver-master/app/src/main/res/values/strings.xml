@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Friends Status PRO</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_help">Help</string>
+    <string name="help_text">This app shows you a good view of all your WhatsApp and WhatsApp business
+        contacts status and helps you save them permanently. \n
+        You can view the pictures and videos separately,
+        then simply tap the ones you want to save, then click the save button.
+        Even if you leave the pictures page to the video page, your selection is still maintained.
+        You can also swipe up to refresh the list.  To view the image clearly, just hold on it.
+        This is cool, right? Do not forget to share this app.
+        To close the floating button, just drag it to the bottom of the screen.
+        Awesome!
+    </string>
+    <string name="action_share">Share</string>
+    <string name="share_text">This app helps you view and save your contacts WhatsApp and WhatsApp business
+        status to your phone, including video, pictures, gifs.
+        Download it here https://play.google.com/store/apps/details?id=com.developersaifamer2030.friendsstatuspro ,
+        developed by CREATIVITY</string>
+
+    <string name="title_activity_intro">IntroActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="help">Help</string>
+    <string name="made_with_love_by_hashcode">Made with love by CREATIVITY</string>
+    <string name="title_activity_bottom">WhatzApStatusSaver</string>
+    <string name="title_pictures">Pictures</string>
+    <string name="title_videos">Videos</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="action_settings">Settings</string>
+    <string name="allow_floating_icon">Allow floating Icon</string>
+    <string name="share_app">Share  Friends Status PRO App</string>
+    <string name="select_video">You have to select more than one video</string>
+    <string name="picture_saved">Picture saved</string>
+    <string name="video_saved">Video saved</string>
+    <string name="picture_selected">No picture selected</string>
+    <string name="video_selected">No video selected</string>
+    <string name="sorry">Sorry, This app cannot work on your device</string>
+    <string name="allow">You have to allow this app to draw over other apps in order</string>
+    <string name="circle">for the floating circle to work</string>
+    <string name="permission">Draw over other app permission not available. Closing the application</string>
+    <string name="sorry_whatsapp">Sorry, you do not have WhatsApp Installed</string>
+    <string name="no_status">No status at the moment</string>
+    <string name="change_mode">CHANGE MODE</string>
+    <string name="enable_dark">Enable Dark Mode</string>
+    <string name="enable_night">Enable Night Mode</string>
+    <string name="pictures">pictures</string>
+    <string name="videos">videos</string>
+    <string name="title_profil">Profile</string>
+    <string name="registered_successfully">Registered successfully. Please check your email for verification</string>
+    <string name="mess">If you are registered with the application, press</string>
+    <string name="signup">Signup</string>
+    <string name="title_activity_login">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="login">Login</string>
+    <string name="messregs">If you are a new user, press</string>
+    <string name="verify">Please verify your email address</string>
+    <string name="action_privacy_policy">Privacy Policy</string>
+    <string name="upload_photo">photo uploaded</string>
+    <string name="not_upload">not upload</string>
+    <string name="name">Name</string>
+    <string name="address">City</string>
+    <string name="city">Suggest</string>
+    <string name="fill_here">Fill here please !</string>
+    <string name="app_id">$app_id_here</string>
+    <string name="fb_app_id">279363979553079</string>
+    <string name="fb_login_protocol">fb279363979553079</string>
+    <string name="shelter">Shelter</string>
+    <string name="putname">To assist humanitarian situations</string>
+    <string name="status_description">Status description</string>
+    <string name="description">description</string>
+    <string name="full_name">Full Name</string>
+    <string name="phone_number">phone number</string>
+
+
+</resources>

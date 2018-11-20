@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.developersaifamer2030.friendsstatuspro.MainActivity">
+    <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="100"
+        android:title="@string/action_refresh"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_help"
+        app:showAsAction="never"
+        android:orderInCategory="200"
+        android:title="@string/action_help"/>
+    <item android:id="@+id/action_share"
+        android:title="@string/action_share"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_share_white_24dp"/>
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_privacy_policy"
+        app:showAsAction="never"
+        android:orderInCategory="300"/>
+</menu>

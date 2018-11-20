@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="230dp"
+    android:id="@+id/parent_layout"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/homimg"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/ic_person_black_24dp"
+                app:civ_border_color="@color/colorAccent"
+                app:civ_border_width="3dp"
+                tools:ignore="VectorDrawableCompat" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/homname"
+                style="@style/lisItemTextStyle"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+
+                android:drawableLeft="@drawable/ic_people"
+                android:fontFamily="@font/aladin"
+                android:hint="@string/name"
+                android:textAlignment="viewEnd"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/homeaddress"
+                style="@style/lisItemTextStyle"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:drawableLeft="@drawable/ic_location_on_black_24dp"
+                android:fontFamily="@font/aladin"
+                android:hint="@string/address"
+                android:textAlignment="viewEnd"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/black_overlay"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/number"
+                style="@style/lisItemTextStyle"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:drawableLeft="@drawable/ic_phone_black_24dp"
+                android:fontFamily="@font/aladin"
+                android:hint="@string/address"
+                android:textAlignment="viewEnd"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/black_overlay"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/homesug"
+                style="@style/lisItemTextStyle"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:drawableLeft="@drawable/ic_bookmark_black_24dp"
+                android:fontFamily="@font/aladin"
+                android:hint="@string/city"
+                android:textAlignment="viewEnd"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/black_overlay"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <ImageButton
+                    android:id="@+id/facebook"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="6dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/facebook" />
+
+
+                <ImageButton
+                    android:id="@+id/twitter"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="6dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/twitter" />
+
+                <ImageButton
+                    android:id="@+id/email"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="6dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/email_1" />
+
+                <ImageButton
+                    android:id="@+id/donate"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/donate" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

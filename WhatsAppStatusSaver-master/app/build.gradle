@@ -1,0 +1,78 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'io.fabric'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
+    defaultConfig {
+        applicationId "com.developersaifamer2030.friendsstatuspro"
+        minSdkVersion 19
+        multiDexEnabled true
+        targetSdkVersion 28
+        versionCode 10
+        versionName '2.9'
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        vectorDrawables.useSupportLibrary = true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:28.0.0-rc02'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'com.android.support:design:28.0.0-rc02'
+    implementation 'com.github.bumptech.glide:glide:4.6.1'
+    implementation 'com.android.support:support-v4:28.0.0-rc02'
+    implementation 'com.android.support:cardview-v7:28.0.0-rc02'
+    implementation 'com.google.android.exoplayer:exoplayer:2.7.3'
+    implementation 'com.android.support:support-core-utils:28.0.0-rc02'
+    implementation 'com.android.support:support-vector-drawable:28.0.0-rc02'
+    //for the floating action button
+    implementation 'com.github.andremion:counterfab:1.0.1'
+    //for the video merger
+    implementation 'com.googlecode.mp4parser:isoparser:1.1.21'
+    testImplementation 'junit:junit:4.12'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.6.1'
+    kapt 'com.github.bumptech.glide:compiler:4.6.1'
+    implementation 'com.google.firebase:firebase-messaging:17.3.3'
+    implementation 'com.google.firebase:firebase-inappmessaging-display:17.0.1'
+    implementation 'com.google.firebase:firebase-auth:16.0.4'
+    implementation 'com.google.firebase:firebase-storage:16.0.3'
+    implementation 'com.google.firebase:firebase-storage:16.0.1'
+    implementation 'com.google.firebase:firebase-database:16.0.1'
+    implementation 'com.google.firebase:firebase-database:16.0.3'
+    implementation 'com.google.firebase:firebase-core:16.0.4'
+    implementation 'com.google.firebase:firebase-config:16.0.1'
+    implementation 'com.crashlytics.sdk.android:crashlytics:2.9.5'
+    compile 'com.android.support:multidex:1.0.3'
+    compile 'com.alexzh:circleimageview:1.1.2@aar'
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
+    compile 'com.mikhaellopez:circularimageview:2.0.1'
+    implementation 'com.facebook.android:facebook-share:[4,5)'
+    implementation 'com.twitter.sdk.android:tweet-composer:3.1.1'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'com.squareup.picasso:picasso:2.6.0-SNAPSHOT'
+}
+repositories {
+    mavenCentral()
+    google()
+}
+
+apply plugin: 'com.google.gms.google-services'
